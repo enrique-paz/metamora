@@ -1,0 +1,323 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 11px;
+	background: #FFFFFF;
+}
+
+td {
+	padding: 0;
+	vertical-align: top;
+	font-size: 11px;
+}
+
+a img {
+	border: none;
+}
+
+.right {display:none;}
+
+h1 {
+	font-size: 18px;
+	color: #092668;
+	margin: 14px 0;
+	display:none;
+}
+
+h2 {
+	color: #092668;
+	font-size: 16px;
+	margin: 14px 0;
+}
+
+h3 {
+	color: #3D5375;
+	font-size: 15px;
+	margin: 10px 0;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+p {
+	margin: 14px 0;
+}
+
+td.content {
+	padding: 20px 25px;
+	padding-top: 5px;
+	color: #333;
+}
+
+td.content div.right {
+	padding: 0px 0px;
+	padding-top: 5px;
+	color: #333;
+	text-align: right;
+}
+
+td.content a {
+	color: #333;
+}
+
+td.content div.right a {
+	color: #092668;
+	text-decoration: none;
+}
+
+div.hr {
+	background: url(../images/aux06.gif) left center repeat;
+	height: 1px;
+	overflow: hidden;
+	margin: 15px 0;
+}
+
+
+/* Headers for the three tables: input table, results table and schedule table. */
+div.table-caption {
+	text-align: left;
+	color: white;
+	background: #999;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 10px;
+	margin-top: 15px;
+}
+
+div.inputinfo {
+	background: #092768;
+}
+
+div.analysis {
+	background: #4e9f57;
+}
+
+div.schedule {
+	background: #878787;
+}
+
+
+/* Input table */
+table.calc {
+	background: #f2f2f2;
+	width: 100%;
+	margin-bottom: 15px;
+	border-bottom: 1px #EAEAEA solid;
+}
+
+/* Each td in input table */
+table.calc td {
+	padding: 6px 12px;
+	border-bottom: 1px white solid;
+}
+
+/* Each td with width of 25% */
+table.calc td.td25 {
+	padding: 6px 10px;
+	text-align: left;
+	border-right: 1px #f2f2f2 solid;
+	border-bottom: 1px white solid;
+	width: 25%;
+}
+
+
+table.calc td.lefttext {
+	text-align: left;
+}
+
+table.calc td.righttext {
+	padding: 6px 0px;
+	text-align: right;
+}
+
+/* Last td in the row. Must reflect right and bottom borders */
+table.calc td.last {
+	text-align: left;
+	border-bottom: 1px white solid;
+	border-right: 1px #EAEAEA solid;
+}
+
+/* First td in the row. Must reflect left border */
+table.calc td.first {
+	text-align: right;
+	padding-top: 7px;
+	padding-right: 0;
+	border-left: 1px #EAEAEA solid;
+	border-right: none;	
+}
+
+table.calc td.td50 {
+	width: 49%;
+}
+
+table.calc td.chapter {
+	text-align: center;
+	background: #f2f2f2;
+	padding-top: 7px;
+	padding-right: 0;
+	font-weight: bolder;
+
+	border-left: 1px #EAEAEA solid;
+	border-right: 1px #EAEAEA solid;
+}
+
+table.calc td.chapter25 {
+	text-align: center;
+	background: #f2f2f2;
+	padding-top: 7px;
+	padding-right: 0;
+	font-weight: bolder;
+	width: 25%;
+}
+
+table.calc td.chapter50 {
+	text-align: center;
+	background: #f2f2f2;
+	padding-top: 7px;
+	padding-right: 0;
+	font-weight: bolder;
+	width: 50%;
+}
+
+
+/* Text fields */
+table.calc input.text {
+	font-size: 10px;	
+}
+
+/* Radio-buttons */
+table.calc select {
+	width: 40px;
+	font-size: 10px;
+}
+
+/* Radio-button labels */
+table.calc span.radio input {
+	position: relative;
+	top: 3px;
+	width: 12px;
+}
+
+table.calc span.radio input.second {
+	margin-left: 8px;
+}
+
+/* Submit button cell */
+table.calc td.button {
+	border-left: 1px #EAEAEA solid;
+	border-right: 1px #EAEAEA solid;
+	border-bottom: none;
+	text-align: center;
+}
+
+/* Submit button style */
+table.calc td.button input {
+	width: 100px;
+	font-size: 11px;
+}
+
+
+/* Analyss result table */
+table.results {
+	background: #f2f2f2;
+	width: 100%;
+	margin-bottom: 15px;
+	border-bottom: 1px #EAEAEA solid;
+}
+
+/* Total row. Must diffs from the regular row. */
+table.results tr.total {
+	font-weight: bold;
+}
+
+/* Results cell */
+table.results td {
+	padding: 8px 10px;
+	border-bottom: 1px white solid;
+	width: 50%;
+	border-right: 1px white solid;
+}
+
+/* Result cell with 25% width */
+table.results td.td25 {
+	padding: 8px 10px;
+	border-bottom: 1px white solid;
+	width: 25%;
+	text-align: center;
+	border-right: 1px white solid;
+}
+
+/* Last cell in the result row. Must reflect the right border. */
+table.results td.last {
+	padding: 8px 10px;
+	border-bottom: 1px white solid;
+	border-right: 1px #EAEAEA solid;
+}
+
+/* Last row in the result table. Must not display bottom border, since it is 
+   already defined in the table's class. */
+table.results tr.last td {
+	border-bottom: none;
+}
+
+/* First cell in the results table. Must reflect left border. */
+table.results td.first {
+	border-right: 1px white solid;
+	border-left: 1px #EAEAEA solid;
+}
+
+
+/* Schedule table */
+table.schedule {
+	width: 100%;
+	color: #333;
+	font-size: 10px;
+}
+
+/* Header of the schedule table */
+table.schedule th {
+	text-align: right;
+	background: #BABABA;
+	border-left: 1px white solid;
+	padding: 2px 5px 3px 8px;
+}
+
+
+table.schedule th.first {
+	border-left: none;
+}
+
+/* Cell of te schedule table */
+table.schedule td {
+	background: #F2F2F2;
+	border-bottom: 1px white solid;
+	border-left: 1px white solid; 
+	text-align: right;
+	padding: 2px 5px 3px 8px;
+	font-size: 10px;	
+}
+
+table.schedule tr.last td {
+	border-bottom: 1px #EAEAEA solid;	
+}
+
+table.schedule td.first {
+	border-left: 1px #EAEAEA solid;
+	text-align: right;
+}
+
+table.schedule td.last {
+	border-right: 1px #EAEAEA solid;	
+}
+
+/* Subtotal cells. Must differs from the regular cells. */
+table.schedule td.subtotal {
+	text-align: right;
+	font-weight: bolder;
+	vertical-align: bottom;
+}
+
+/* Total cells. Must differs from the regular cells. */
+table.schedule td.total {
+	text-align: right;
+	font-weight: bolder;
+}

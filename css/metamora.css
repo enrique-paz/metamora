@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {margin:0;padding:0;}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+body {font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;color:#092768;background-color:#ffffff;}
+.main {background-color:#C7c7c7;}
+.metamora {text-align: center;background-color:#092768;position:relative;}
+.container-metamora {max-width:1280px;padding:0;position:relative;margin:0 auto;}
+.message {margin-bottom:0;text-align:center;}
+blockquote {font-size:inherit !important;border:none !important;}
+
+a {white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+white-space: pre-wrap;       /* css-3 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+word-break: break-all;
+white-space: normal;}
+
+/* NAVIGATION*/
+.nav-metamora {background-color:#FFF;border:none;}
+.navbar-inverse .navbar-nav>li>a {color:#092768 !important;}
+.top-nav {float:right;}
+.top-nav li a {padding:15px 2px;}
+.top-nav li>a:hover {color:#4e9f57 !important;}
+.top-nav a:after {content:" |";}
+.nopipe a:after {content:"";}
+.top-nav li.active a {color:#4e9f57 !important;background-color:transparent !important;}
+.navbar {margin-bottom:0;border-radius:0 !important;}
+
+/* LOGO BLOCK */
+.metamora-brand {width:282px;background-color:#ffffff;}
+.logo-block {position:absolute;z-index:5000;left:50px;}
+.logo-block-nav {text-align:center;background-color:#092768;}
+.logo-block-nav li a {color:#ffffff;padding:5px 0; text-transform:uppercase;}
+.logo-block-nav li a:hover {color:#092768;background-color:#4e9f57;}
+.logo-block-border {border-top:2px solid #ffffff;border-bottom:2px solid #ffffff;}
+.logo-block-nav li.active {background-color:#4e9f57}
+
+/*TABS*/
+.nav-tabs {border:0;font-size:.88em;}
+.tab-container {background-color:rgba(9,39,104,.98);position:relative;top:-80px;width:100%;z-index:10;min-height:339px;box-shadow:6px 0px 10px rgba(0,0,0,.4)}
+.tab-text {color:#ffffff;text-align:left;}
+.metamora-tabpane {padding:15px;}
+.metamora-tabs ul {border:0 !important;}
+.metamora-tabs li {background-color:#a6acb9;}
+.metamora-tabs li a {color:#092768;text-transform:uppercase;padding:10px 42px;border:0 !important}
+.metamora-tabs li a:hover {background-color:#092768;color:#fff;border:0 !important;border-radius:0 !important;}
+.nav-tabs>li.active>a {background-color:#092768;color:#ffffff;border-radius:0 !important;}
+.nav-tabs>li.active>a:hover, .nav-tabs > li.active > a:focus {background-color:#092768;color:#ffffff;border:0 !important;} 
+div.container.metamora-tabs.col-lg-9 {padding-right:0;}
+.metamora-tabs img {margin-right:25px;}
+.intro {font-size:1.8em;}
+.bluebkg {background-color:#092768;}
+.rule {border-left:1px solid rgba(255,255,255,.5);min-height:200px;}
+.rule a {color:#ffffff !important;}
+
+.metamora-tabs ulcardtabs {margin-left:10px;}
+.metamora-tabs ul.cardtabs li  {background:none !important;}
+.metamora-tabs ul.cardtabs li a  {background:none !important;text-transform:none;padding:0;display: inline;}
+ul.cardtabs {margin-left:15px }
+
+/* MESSAGE BOARD */
+.message-board {box-shadow:1px 0px 10px rgba(0,0,0,.4);}
+.message-board h3 {color:#ffffff;margin:0;font-size:1.1em;text-transform:uppercase;margin:10px 0;text-align:center;}
+.message-board li {color:#ffffff;}
+.message-board ul {padding:15px;}
+
+/* SLIDERS */
+.slider img {width:100%;height:799px;}
+.caption-text {text-align:left;width:43.3333%;top:43.3333%;left:12.3333%;}
+.caption-text h1 {font-size:3em;text-shadow:1px 1px 2px #000000;}
+
+/* PAGES*/
+.metamora-cards {width:100%;height:215px;background:url(../images/cards-banner.jpg) no-repeat; background-size:cover}
+.metamora-business {width:100%;height:215px;background:url(../images/business-banner.jpg) no-repeat; background-size:cover}
+.metamora-contact {width:100%;height:215px;background:url(../images/contact-banner.jpg) no-repeat; background-size:cover}
+.metamora-msb {width:100%;height:215px;background:url(../images/msb-banner.jpg) no-repeat; background-size:cover}
+.metamora-loans {width:100%;height:215px;background:url(../images/loans-banner.jpg) no-repeat; background-size:cover}
+.metamora-community {width:100%;height:215px;background:url(../images/community-banner.jpg) no-repeat; background-size:cover}
+.metamora-investor {width:100%;height:215px;background:url(../images/investor-banner.jpg) no-repeat; background-size:cover}
+.metamora-banners {width:100%;height:215px;background:url(../images/banking-banner.jpg) no-repeat; background-size:cover}
+.main-bkg {position:relative;top:-43px;min-height:300px;}
+.metamora-page li {background-color:#092768;border:0 !important}
+.metamora-page li a {color:#ffffff;text-transform:uppercase;padding:11px 42px;}
+.metamora-page li a:hover {background-color:#ffffff;color:#092768;border:0 !important;border-radius:0 !important;padding:13px 42px;}
+.metamora-page .nav-tabs>li.active>a {background-color:#ffffff;color:#092768;border:0 !important;padding:13px 42px;}
+.metamora-page h3,h4 {color:#092678;}
+.page li {background:none;color:#323232;}
+.page a {color:#092678;padding:0 15px;}
+.page p {color:#323232;}
+.page .thumbnail {min-height:270px;}
+
+.nav-pills>li.active>a {background-color:transparent !important;color:#323232 !important;}
+.nav-pills a {color:#092678 !important;padding-left:15px !important;text-transform: none !important;}
+
+.idtheft {border:1px solid #A09D9D;padding:15px;width:95%;margin:0 auto 20px;float:none;}
+h5 {font-weight:700;}
+
+/* FOOTER */
+
+.metamora-footer {background-color:#c7c7c7;padding:20px 0;width:95%;float:none;margin:0 auto;}
+footer ul {margin:0;padding:0;list-style-type:none}
+footer ul li a {padding:5px 0;display:block;color:#092768;text-transform:uppercase;font-size:.88em}
+.home {position:relative;top:-80px;}
+.container-metamora a {color:#092768;display:inline-block;}
+
+/* LOG-IN */
+.metamora-login {width:262px;height:165px;background-color:rgba(255,255,255,.4);border:1px solid #4e9f57;position:absolute;z-index:5001;top:50px;right:60px;padding:10px;} 
+.metamoralogin a.atext {color:#092768;text-decoration:underline;margin-right:20px;}
+.metamora-login h3 {color:#092768;margin:0;text-shadow:1px 1px 5px #528ecc;font-weight:bold;}
+.metamora-input {margin-top:10px;}
+.metamora-btn {width:240px;margin-top:10px;}
+.pagefooter {background-color:#c7c7c7;}
+
+/* BUTTONS */
+
+.metamora-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #deefff), color-stop(1, #99ccff) );
+	background:-moz-linear-gradient( center top, #deefff 5%, #99ccff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#deefff', endColorstr='#99ccff');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=130, Color='#092768')";
+	background-color:#deefff;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	font-size:15px;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+	color:#092768;
+    behavior: url(PIE.htc);
+	position:relative;
+z-index: 0;
+}
+.metamora-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #99ccff), color-stop(1, #deefff) );
+	background:-moz-linear-gradient( center top, #99ccff 5%, #deefff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#99ccff', endColorstr='#deefff');
+	background-color:#99ccff;
+	behavior: url(PIE.htc);
+	position:relative;
+z-index: 0;
+border-radius:6px;
+}
+.metamora-button:active {
+	position:relative;
+	top:1px;
+}
+
+.property-btn {width:200px;font-size:25px;}
+
+.well {
+min-height: 20px;
+padding: 19px;
+margin-bottom: 20px;
+background-color: #f5f5f5;
+border: 1px solid #e3e3e3;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 5px 8px rgba(0,0,0,.05) !important;
+box-shadow: inset 0 5px 8px rgba(0,0,0,.05) !important;
+}
+
+/* FORM */
+.form-control {padding: 25px 12px !important;font-size: 16px !important;}
+.input-group-addon {color:#092768 !important; text-transform:uppercase;font-size:12px !important}
+
+textarea { white-space:pre}
+
+/* OVER_WRITES */
+.nav-tabs>li>a {border-radius:none !important;}
+
+@media only screen and (max-width : 320px) {
+	
+	.main {width:100% !important;margin:0 !important}
+	.container {padding:0 !important;}
+	.nav-tabs>li {float:none;width:100%;}
+	.navbar-toggle {margin-right: 50%;margin-left: 46%;float:none;}
+	.navbar-nav {margin:0 !important;}
+	.navbar-collapse {max-height: 340px;overflow-x: visible;padding:0 !important;border-top: 1px solid transparent;box-shadow: none;}
+	.top-nav {float:none;text-align: center;}
+	.top-nav a::after {display:none;}
+	.logo-block {width:100% !important;background-color: #ffffff;position:relative;left:0;}
+	.container>.navbar-header {margin:0;}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {margin-left:0 !important;margin-right:0 !important;}
+	.metamora-login {display:none;}
+	.metamora-brand {width:100%;}
+	.tab-container {background-color:rgba(9,39,104,.98);position:static;width:100%;z-index:10;min-height:339px;box-shadow:none}
+	.carousel-caption {display:none;}
+	.mobile {display:none;}
+	.intro {font-size: 1.35em;text-align: center;}
+	.col-sm-7, .col-sm-2 {text-align:center;}
+	.col-sm-2 {margin-bottom:35px;}
+	.col-md-3  {padding-left:35px;padding-right:35px;}
+	.home {top:0;}
+	.metamora-loans,.metamora-cards, .metamora-business, .metamora-contact, .metamora-msb, .metamora-community, .metamora-investor, .metamora-banners  {background-size: cover;height:100px;}
+	.page p a {white-space: pre !important;}
+	.message-board h3 {padding:15px;}
+	.metamora-brand img {margin:0 auto;}
+	.metamora-page li {background-color: #E5E5E5;color:#092768;border-top:1px solid #ffffff !important}
+	.metamora-page li a {color:#092768;}
+	.nav-tabs>li>a {margin-right:0;}
+	.rule {border-left:none !important;}
+}
+
+@media only screen and (min-width: 321px) and (max-width:640px) {
+	
+	.main {width:100% !important;margin:0 !important}
+	.container {padding:0 !important;}
+	.nav-tabs>li {float:none;width:100%;}
+	.navbar-toggle {margin-right: 50%;margin-left: 46%;float:none;}
+	.navbar-nav {margin:0 !important;}
+	.navbar-collapse {max-height: 340px;overflow-x: visible;padding:0 !important;border-top: 1px solid transparent;box-shadow: none;}
+	.top-nav {float:none;text-align: center;}
+	.top-nav a::after {display:none;}
+	.logo-block {width:100% !important;background-color: #ffffff;position:relative;left:0;}
+	.container>.navbar-header {margin:0;}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {margin-left:0 !important;margin-right:0 !important;}
+	.metamora-login {display:none;}
+	.metamora-brand {width:100%;}
+	.caption-text {top: auto;bottom:5%;}
+	.caption-text h1 {font-size:1.5em;}
+	.tab-container {background-color:rgba(9,39,104,.98);position:static;width:100%;z-index:10;min-height:339px;box-shadow:none}
+	.mobile {display:none;}
+	.intro {font-size: 1.35em;text-align: center;}
+	.col-sm-7, .col-sm-2 {text-align:center;}
+	.col-sm-2 {margin-bottom:35px;width:100%;}
+	.col-md-3  {padding-left:35px;padding-right:35px;}
+	.home {top:0;}
+	.metamora-loans,.metamora-cards, .metamora-business, .metamora-contact, .metamora-msb, .metamora-community, .metamora-investor, .metamora-banners  {background-size: cover;height:100px;}
+	.page p a {white-space: pre !important;}
+	.message-board h3 {padding:15px;}
+	.metamora-brand img {margin:0 auto;}
+	div.metamora-brand a {margin:0 auto;display:block;}
+	.metamora-page li {background-color: #E5E5E5;color:#092768;border-top:1px solid #ffffff !important}
+	.metamora-page li a {color:#092768;}
+	.nav-tabs>li>a {margin-right:0;}
+	.rule {border-left:none !important;}
+	.page .thumbnail {width:250px;float:left;min-height:310px;margin-right:15px;}
+}
+
+/* Tablets Portrait */
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	.main {width:100% !important;margin:0 !important}
+	.container {padding:0 !important;width:100% !important}
+	.nav-tabs>li {float:none !important;width:100% !important;display:block !important;margin-bottom:1px !important;}
+	.navbar-toggle {margin-right: 50%;margin-left: 46%;float:none;}
+	.navbar-nav {margin:0 !important;}
+	.navbar-collapse {max-height: 340px;overflow-x: visible;padding:0 !important;border-top: 1px solid transparent;box-shadow: none;}
+	.navbar-nav>li {display:inline-block !important;float:none !important}
+	.top-nav {float:none;text-align: center;}
+	.top-nav a:after {content:" |";}
+	.logo-block {width:100% !important;background-color: #ffffff;position:relative;left:0;}
+	.container>.navbar-header {margin:0;}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {margin-left:0 !important;margin-right:0 !important;}
+	.metamora-login {display:none;}
+	.metamora-brand {width:100%;}
+	.caption-text {top: auto;bottom:5%;}
+	.caption-text h1 {font-size:2.5em;}
+	.tab-container {background-color:rgba(9,39,104,.98);position:static;width:100%;z-index:10;min-height:339px;box-shadow:none}
+	.intro {font-size: 1.6em;padding-left:35px}
+	.col-sm-2 {text-align:center;}
+	.col-sm-2 {margin-bottom:35px;width:100%;}
+	.col-md-3  {padding-left:35px;float:left;width:100%;}
+	.col-sm-7 {float:left;padding-left:35px;}
+	.home {top:0;}
+	.metamora-loans,.metamora-cards, .metamora-business, .metamora-contact, .metamora-msb, .metamora-community, .metamora-investor, .metamora-banners  {background-size: cover;height:100px;}
+	.page p a {white-space: pre !important;}
+	.message-board h3 {padding:15px;}
+	.metamora-brand img {margin:0 auto;}
+	div.metamora-brand a {margin:0 auto;display:block;}
+	.metamora-page li {background-color: #E5E5E5;color:#092768;border-top:1px solid #ffffff !important}
+	.metamora-page li a {color:#092768;}
+	.nav-tabs>li>a {margin-right:0;}
+	.rule {border-left:none !important;}
+	.thumbnail p {margin:0 !important;}
+	.page .thumbnail {min-height:320px !important;}
+
+}
+
+/* Tablets Landscape */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.col-lg-9 {width:73.3333% !important;float:left}
+	.metamora-tabs li a {font-size:85% !important;padding: 10px 30px;}
+	.caption-text h1 {font-size:2.3em;font-weight:normal !important;}
+	.col-sm-7 {width:63.3333% !important;margin-left:75px;}
+	.col-sm-3 {width:20% !important;}
+	.col-sm-6 {width:46.6666%;}
+	.tab-container {top:-60px;}
+	.col-sm-2 p {font-size:12px;}
+	.metamora-footer .col-sm-2 {margin-left:20px;}
+	.metamora-footer a {font-size:10px;}
+	.idtheft {margin-top:20px !important;}
+	.page .thumbnail {min-height:320px !important;}
+
+}
+
+
+/* iPad Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+
+	.main {width:100% !important;margin:0 !important}
+	.container {padding:0 !important;width:100% !important}
+	.nav-tabs>li {float:none !important;width:100% !important;display:block !important;padding: 10px 42px !important;margin-bottom:3px !important;text-align:center;}
+	.navbar-toggle {margin-right: 50%;margin-left: 46%;float:none;}
+	.navbar-nav {margin:0 !important;}
+	.navbar-collapse {max-height: 340px;overflow-x: visible;padding:0 !important;border-top: 1px solid transparent;box-shadow: none;}
+	.navbar-nav>li {display:inline-block !important;float:none !important}
+	.top-nav {float:none;text-align: center;}
+	.top-nav a:after {content:" |";}
+	.logo-block {width:100% !important;background-color: #ffffff;position:relative;left:0;}
+	.container>.navbar-header {margin:0;}
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {margin-left:0 !important;margin-right:0 !important;}
+	.metamora-login {display:none;}
+	.metamora-brand {width:100%;}
+	.metamora-tabs li a {width:100% !important;display:block}
+	.caption-text {top: auto;bottom:5%;}
+	.caption-text h1 {font-size:2.5em;}
+	.tab-container {background-color:rgba(9,39,104,.98);position:static !important;width:100% !important;z-index:10;min-height:339px;box-shadow:none}
+	.intro {font-size: 1.35em;}
+	.col-sm-2 {margin-bottom:35px;}
+	.col-md-3  {padding-left:35px;padding-right:35px;float:left;width:100%;}
+	.col-sm-7 {float:left;padding-left:35px;}
+	.home {top:0;}
+	.metamora-loans,.metamora-cards, .metamora-business, .metamora-contact, .metamora-msb, .metamora-community, .metamora-investor, .metamora-banners  {background-size: cover;height:100px;}
+	.page p a {white-space: pre !important;}
+	.message-board h3 {padding:15px;}
+	.metamora-brand img {margin:0 auto;}
+	div.metamora-brand a {margin:0 auto;display:block;}
+	.metamora-page li {background-color: #E5E5E5;color:#092768;border-top:1px solid #ffffff !important;}
+	.metamora-page li a {color:#092768;}
+	.metamora-page li a .active {display:block !important;width:100% !important;padding:25px !important;}
+	.nav-tabs>li>a {margin-right:0 !important;font-size:16px !important;}
+	.rule {border-left:none !important;}
+.thumbnail p {margin:0 !important;}
+.page .thumbnail {min-height:320px !important;}
+
+}
+
+/* iPad Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.col-lg-9 {width:73.3333% !important;float:left}
+	.metamora-tabs li a {font-size:85% !important;padding: 10px 30px;}
+	.caption-text h1 {font-size:2.5em;font-weight:normal !important;}
+	.col-sm-7 {width:63.3333% !important;margin-left:75px;}
+	.col-sm-3 {width:20% !important;}
+	.col-sm-6 {width:46.6666%;}
+	.thumbnail p {margin:0 !important;}
+	
+}
+

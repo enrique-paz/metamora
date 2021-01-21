@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* LOG-IN */
+
+.metamora-login {background-image: url(../images/login-bkg.png) !important;display:inline-block !important;}
+.metamora-login a.atext {margin-right:18px;}
+
+/* NAVIGATION */
+.top-nav {position:absolute;right:55px;}
+.nav-metamora {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=130, Color='#000000')"}
+
+/* SLIDERS */
+.caption-text {left:12.3333% !important;}
+
+/*TABS*/
+.tab-container {background-color:#092768;top:-60px;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=130, Color='#000000')";width:100% !important;}
+.metamora-tabs li a {padding:10px 41px;}
+
+/* Message Board */
+
+.message-board {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=130, Color='#000000')";background-color:#092768}
+
+/* PAGES */
+.metamora-banners, .metamora-msb,  .metamora-loans,  .metamora-community, .metamora-investor, .metamora-contact {background:none;}
+
+.bg {
+  position: absolute; 
+  top: 50px; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  max-height: 215px;
+}
+
+.thumbnail img {width:200px; height:133px;}
+
+/* FOOTER */
+.home {position:relative;top:-60px;}
+
+
+
+
+

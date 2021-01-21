@@ -1,0 +1,9 @@
+images/
+node_modules/
+logs/
+.DS_Store
+*.exe
+*.zip
+.*log
+*.sql
+assets/
